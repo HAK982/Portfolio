@@ -1,0 +1,559 @@
+@import url("https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Lobster&family=Merriweather&family=Noto+Serif&family=Poppins:ital,wght@0,300;0,500;0,600;1,100;1,200&family=Roboto+Mono&family=Ubuntu:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.ref {
+  margin-top: 200px;
+}
+
+
+/* navbar-styling */
+
+.navbar {
+  background: rgb(0, 77, 177);
+  background: radial-gradient(
+    circle,
+    rgba(22, 57, 103, 0.435) 27%,
+    rgb(4, 21, 41) 89%
+  );
+  font-family: "Ubuntu", sans-serif;
+  transition-duration: 0.6s;
+}
+
+.menu-bar {
+  list-style: none;
+  display: inline-block;
+}
+.mylogo {
+  cursor: pointer;
+}
+
+.navbar ul li a {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.navbar ul li a:hover {
+  /* color: white;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: Georgia, "Times New Roman", Times, serif; */
+  background-color: #29aafe;
+  border-radius: 100%;
+}
+
+/* home section */
+
+.carousel-item {
+  height: 38rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.419), rgba(0, 0, 0, 0.97)),
+    url(images/zz_1425x1200.jpg);
+  margin-top: -30px;
+}
+
+.ref {
+  color: rgb(255, 113, 4);
+  font-family: "Grape Nuts", cursive;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.ref span {
+  color: white;
+}
+
+.ref2 {
+  color: white;
+  font-family: "Noto Serif", serif;
+  font-size: 12px;
+}
+
+.btn-outline:hover {
+  background-color: rgb(8, 31, 94);
+  font-family: "Ubuntu";
+}
+.btn {
+  border-radius: 50px;
+  border-color: rgb(8, 31, 94);
+  font-family: "Ubuntu";
+  font-size: 18px;
+}
+
+/* about section */
+
+.titled {
+  font-family: "Ubuntu", sans-serif;
+  margin-top: 600px;
+  font-size: 45px;
+  color: blue;
+  /* text-decoration-line: underline;
+  text-underline-offset: 15px; */
+}
+
+.profile {
+  width: 100%;
+  height: auto;
+}
+
+.btn2 {
+  border-radius: 5px;
+  border-color: rgb(8, 31, 94);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  color: black;
+  background-color: white;
+}
+
+.btn2:hover {
+  background-color: rgb(8, 31, 94);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+.titled2 {
+  font-family: "Ubuntu", sans-serif;
+  /* margin-top: 600px; */
+  font-size: 45px;
+  color: white;
+}
+
+.tilted2h6 {
+  color: rgb(4, 4, 255);
+}
+
+.tilted2p {
+  color: antiquewhite;
+  font-family: "Noto Serif", serif;
+  font-size: 13px;
+}
+
+.intro {
+  font-family: "Roboto Mono", monospace;
+}
+
+#texter {
+  font-size: 40px;
+  font-family: "Noto Serif", serif;
+}
+
+/* services styling */
+
+#services {
+  margin-top: 120px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.419), rgba(0, 0, 0, 0.97)),
+    url(images/bg4_1530x2000.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+
+.its {
+  width: 100px;
+  cursor: pointer;
+}
+.its2 {
+  color: white;
+  cursor: pointer;
+}
+.its3 {
+  color: rgb(69, 85, 251);
+}
+
+/* MY Work styling */
+
+.titled3 {
+  font-family: "Ubuntu", sans-serif;
+  /* margin-top: 600px; */
+  font-size: 45px;
+  color: blue;
+}
+
+.working {
+  font-family: "Noto Serif", serif;
+}
+
+.its4 {
+  color: blue;
+}
+
+.img-overlay {
+  position: relative;
+  width: 100%;
+}
+
+.img-overlay-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.learnit {
+  width: 90%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgba(0, 0, 0, 0.685);
+}
+
+.img-overlay:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* rough */
+
+#rough {
+  margin-top: 120px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.702), rgba(0, 0, 0, 0.97)),
+    url(images/Capture4_1425x1003.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+
+.bar {
+  width: 27px;
+}
+
+.titled5 {
+  font-family: "Noto Serif", serif;
+  /* margin-top: 600px; */
+  font-size: 15px;
+  color: white;
+  text-align: center;
+}
+
+/* contactme styling */
+
+.titled6 {
+  font-family: "Ubuntu", sans-serif;
+  /* margin-top: 600px; */
+  font-size: 45px;
+  color: blue;
+}
+
+.dsp {
+  display: flex;
+  justify-content: flex-start;
+  text-align: start;
+  align-items: start;
+  font-family: "Noto Serif", serif;
+}
+
+.dsp2 {
+  display: inline-block;
+}
+
+.headname {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.infor {
+  width: 60%;
+  margin-left: -20px;
+}
+
+.wrap {
+  margin: 50px auto;
+  width: 90%;
+  text-align: center;
+  color: darkgray;
+  padding: 3%;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6);
+}
+
+form {
+  margin: 50px auto;
+  width: 70%;
+  padding: 3%;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6);
+}
+
+input {
+  border-radius: 8px;
+  border: 2px solid #eee;
+  width: 48.5%;
+  margin-bottom: 15px;
+  padding: 5px 7px;
+  height: 35px;
+  box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.6);
+  outline-color: #111;
+}
+input:nth-of-type(2n) {
+  margin-left: 2%;
+}
+
+input:focus {
+  box-shadow: 0px 0 7px rgba(0, 0, 0, 0.6);
+}
+
+textarea {
+  box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.6);
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 2px solid #eee;
+  outline-color: #111;
+  resize: none;
+  padding: 5px 7px;
+  width: 99.5%;
+}
+
+textarea:focus {
+  box-shadow: 0px 0 7px rgba(0, 0, 0, 0.6);
+}
+
+.btnd {
+  width: 99.5%;
+  height: 35px;
+  border-radius: 8px;
+  border: 2px solid #eee;
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+  padding: 5px 7px;
+  box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.6);
+  outline-color: #111;
+}
+.btnd:hover,
+.btnd:focus {
+  box-shadow: 0px 0 7px rgba(0, 0, 0, 0.6);
+  color: #fff;
+  background-color: rgb(24, 16, 78);
+}
+
+/* footer */
+
+.site-footer {
+  background-color: #131a37;
+  padding: 45px 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #737373;
+}
+.site-footer hr {
+  border-top-color: #bbb;
+  opacity: 0.5;
+}
+.site-footer hr.small {
+  margin: 20px 0;
+}
+.site-footer h6 {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  letter-spacing: 2px;
+}
+.site-footer a {
+  color: #737373;
+}
+.site-footer a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+.footer-links {
+  padding-left: 0;
+  list-style: none;
+}
+.footer-links li {
+  display: block;
+}
+.footer-links a {
+  color: #737373;
+}
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+.footer-links.inline li {
+  display: inline-block;
+}
+.site-footer .social-icons {
+  text-align: right;
+}
+.site-footer .social-icons a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 6px;
+  margin-right: 0;
+  border-radius: 100%;
+  background-color: #33353d;
+}
+.copyright-text {
+  margin: 0;
+}
+@media (max-width: 991px) {
+  .site-footer [class^="col-"] {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .site-footer {
+    padding-bottom: 0;
+  }
+  .site-footer .copyright-text,
+  .site-footer .social-icons {
+    text-align: center;
+  }
+}
+.social-icons {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.social-icons li {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+.social-icons li.title {
+  margin-right: 15px;
+  text-transform: uppercase;
+  color: #96a2b2;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.social-icons a {
+  background-color: #eceeef;
+  color: #818a91;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 44px;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  margin-right: 8px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.social-icons a.twitter {
+  background-color: #eceeef;
+  color: #818a91;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 44px;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  margin-right: 8px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  background-image: url(images/tweet.png);
+}
+.social-icons a.facebook {
+  background-color: #eceeef;
+  color: #818a91;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 44px;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  margin-right: 8px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  background-image: url(images/fb.png);
+}
+.social-icons a.instagram {
+  background-color: #eceeef;
+  color: #818a91;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 44px;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  margin-right: 8px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  background-image: url(images/insta.png);
+}
+.social-icons a.linkedin {
+  background-color: #eceeef;
+  color: #818a91;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 44px;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  margin-right: 8px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  background-image: url(images/linked.png);
+}
+
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover {
+  color: #fff;
+  background-color: #29aafe;
+}
+.social-icons.size-sm a {
+  line-height: 34px;
+  height: 34px;
+  width: 34px;
+  font-size: 14px;
+}
+.social-icons a.facebook:hover {
+  background-color: #3b5998;
+  background-image: url(images/fb.png);
+}
+.social-icons a.twitter:hover {
+  background-color: #00aced;
+  background-image: url(images/tweet.png);
+}
+.social-icons a.instagram:hover {
+  background-color: #ea4c89;
+  background-image: url(images/insta.png);
+}
+.social-icons a.linkedin:hover {
+  background-color: #007bb6;
+  background-image: url(images/linked.png);
+}
+@media (max-width: 767px) {
+  .social-icons li.title {
+    display: block;
+    margin-right: 0;
+    font-weight: 600;
+  }
+}
